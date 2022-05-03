@@ -20,7 +20,7 @@ public class CheckSumInCart extends BaseTest {
         getHomePage().inputSearchQuery(filtersModel.getName());
         getHomePage().clickOnFindButton();
 
-        Log.info("3) Set to filter on the search page.");
+        Log.info("3) Set filter on the search page.");
         getSearchPage().clickOnBrand();
         getSearchPage().selectDropDownFilter();
 

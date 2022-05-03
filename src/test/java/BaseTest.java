@@ -8,10 +8,11 @@ import page.HomePage;
 import page.NotebookPage;
 import page.SearchPage;
 import utils.PropertiesReader;
-import utils.WaitHelper;
+
 
 
 import static io.github.bonigarcia.wdm.WebDriverManager.chromedriver;
+
 
 public class BaseTest {
 
@@ -34,7 +35,7 @@ public class BaseTest {
 
     @AfterMethod
     public void tearDown() {
-        //WaitHelper.delay(); // For Debug!
+
         driver.quit();
     }
 
