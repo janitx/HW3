@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<filter>
+    <name>Ноутбуки</name>
+    <brand>HP</brand>
+    <price>250000</price>
+</filter>
